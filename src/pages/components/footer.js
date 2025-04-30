@@ -1,6 +1,5 @@
 import Container from 'react-bootstrap/Container';
 
-
 export default function Footer() {
   return ( // border, border-warning, border-2, rounded-pill https://getbootstrap.com/docs/5.3/utilities/borders/#border
     //  bg-warning-subtle https://getbootstrap.com/docs/5.3/utilities/background/
