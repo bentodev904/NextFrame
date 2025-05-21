@@ -5,15 +5,11 @@ export default function Useeffect() {
     setTimeout(() => {
         setNumero(numero + 1);
     }, 3000);
-
-    useEffect();
-
     useEffect(() => {
         if (numero > 0) {
             document.title = `UseEffect - ${numero}`;
         }
     }, [numero])
-
     return <>
         <div className="text-center">
             <h2>UseEffect()</h2>
