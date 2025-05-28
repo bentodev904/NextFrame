@@ -2,7 +2,7 @@ import { Button, Form, Container, Row, Col } from 'react-bootstrap';
 
 export default function Noticia() {
   return (
-    <Container>
+    <Container>Olá
       <Row>
         <Col xs={{ span: 6, offset: 3 }}>
           <Form>
