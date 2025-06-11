@@ -34,6 +34,8 @@ export default function Menu() {
               <NavDropdown.Item href="/funcaonext/gsspcard">GetServerSideProps-Card</NavDropdown.Item>
               <NavDropdown.Item href="/funcaonext/gsspcardpesquisa">GSSP-Card-Pesquisa</NavDropdown.Item>
               <NavDropdown.Item href="/funcaonext/gsspcardesportes">GSSP-Card-Esportes</NavDropdown.Item>
+              <NavDropdown.Item href="/funcaonext/gsspcardentretenimento">GSSP-Card-Entretenimento</NavDropdown.Item>
+              <NavDropdown.Item href="/funcaonext/gsspcardciencia">GSSP-Card-Ciência</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

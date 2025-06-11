@@ -9,7 +9,7 @@ export default function Cards(noticia) {
                     <Card.Title className="text-capitalize">{noticia.tiponoticia}</Card.Title>
                     <Card.Text> {noticia.conteudonoticia}</Card.Text>
                 </Card.Body>
-                <Card.Footer>{noticia.datahoracadastro}</Card.Footer>
+                <Card.Footer>{new Date(noticia.datahoracadastro).toLocaleString("pt-br")}</Card.Footer>
             </Card>
         </Col>
     </>
