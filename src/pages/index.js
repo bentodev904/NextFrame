@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Cards from './components/cards';
 export async function getServerSideProps() {
   // Fetch data from external API
@@ -16,8 +16,7 @@ export default function Home({ noticias }) {
             <Cards idnoticia={noticia.idnoticia} titulonoticia={noticia.titulonoticia}
               tiponoticia={noticia.tiponoticia} conteudonoticia={noticia.conteudonoticia}
               datahoracadastro={noticia.datahoracadastro} />
-          )
-          : "falso"}
+          ): "falso"}
       </Row>
     </Container>
   );
