@@ -16,7 +16,7 @@ export default function Noticia() {
     };
 
     try {
-      const response = await fetch("api6anoticias.vercel.app/postnoticias", {
+      const response = await fetch("https://fwapi2funcionado.vercel.app/postnoticias", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
